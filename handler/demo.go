@@ -4,7 +4,7 @@ import (
 	"log"
 	"errors"
 	"golang.org/x/net/context"
-	"go-zipkin-demo/pb"
+	"github.com/henter/go-zipkin-demo/pb"
 	"strings"
 )
 

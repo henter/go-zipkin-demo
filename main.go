@@ -11,9 +11,9 @@ import (
 	opentracing "github.com/opentracing/opentracing-go"
 	zipkin "github.com/openzipkin/zipkin-go-opentracing"
 
-	"go-zipkin-demo/pb"
-	"go-zipkin-demo/handler"
-	"go-zipkin-demo/trace"
+	"github.com/henter/go-zipkin-demo/pb"
+	"github.com/henter/go-zipkin-demo/handler"
+	"github.com/henter/go-zipkin-demo/trace"
 )
 
 
