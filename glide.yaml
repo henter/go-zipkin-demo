@@ -1,0 +1,15 @@
+package: go-zipkin-demo
+import:
+- package: github.com/golang/protobuf
+  subpackages:
+  - proto
+- package: github.com/micro/go-grpc
+- package: github.com/micro/go-micro
+  subpackages:
+  - client
+  - metadata
+  - selector/cache
+  - server
+- package: golang.org/x/net
+  subpackages:
+    - context

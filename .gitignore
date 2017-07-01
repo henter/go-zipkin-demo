@@ -1,0 +1,6 @@
+vendor/
+test/test
+*.log
+*.log.*
+config.ini
+.idea/
